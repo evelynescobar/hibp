@@ -7,4 +7,4 @@
 
 API URL: https://evelynescobar-hibp-api.herokuapp.com/
 
-<img src="webSocket.png">
+<img src="1.png">
