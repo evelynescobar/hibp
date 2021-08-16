@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Account Breaches</title>
+</head>
+  <body>
+    <div class="container">
+      <h2>CHECK MY ACCOUNT</h2>
+      <p>Enter your email below, and we'll scour the dark web for enemy threats at no cost for you.</p>
+      <form id="myForm">
+        
+          <div class="box">
+            <input type="text" value="" name="EMAIL" class="email" id="email" required="" >
+            <label>email</label>
+          </div>
+          <p>
+            Breaches Detected: <code id="count"></code>
+            <br>
+          </p>
+          <a onclick="checkingBreaches()" class="submit"> 
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            VIEW THREATS NOW
+          </a>
+        
+      </form>
+    </div>
+    <p>
+      <div class="display-results">
+        <code id="results"></code>
+      </div>
+    </p>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jshashes/1.0.7/hashes.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
